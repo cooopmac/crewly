@@ -1,3 +1,27 @@
+User Stories:
+_as a user, i want to login and signup_
+
+- add user authentication frontend page
+- do user routing and logic in backend
+- create database to save users
+- clerk?
+
+as a user, i want to greate new crews
+
+as a user, i want to add employees
+
+as a user, i want to add clients,
+w their information - address, etc
+
+i want to be able to add clients on
+a schedule for a specific amount of time
+
+as a user, i want to see different time interation calenders - daily, 1 week, 2 weeks, 1 month
+
+as a user, i want to add tasks for employees on a specific day
+
+as a user, i want to share the claenders with the crew associated with the schedule
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
