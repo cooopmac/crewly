@@ -1,5 +1,6 @@
 User Stories:
-_as a user, i want to login and signup_
+
+as a user, i want to login and signup\_
 
 - add user authentication frontend page
 - do user routing and logic in backend
