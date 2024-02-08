@@ -18,11 +18,36 @@ const Page = () => {
       members: 3,
       membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
     },
+    {
+      title: "Landscape Guys",
+      members: 3,
+      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
+    },
+    {
+      title: "Landscape Guys",
+      members: 3,
+      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
+    },
+    {
+      title: "Landscape Guys",
+      members: 3,
+      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
+    },
+    {
+      title: "Landscape Guys",
+      members: 3,
+      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
+    },
+    {
+      title: "Landscape Guys",
+      members: 3,
+      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
+    },
   ];
   return (
     <div>
       <CrewNav />
-      <div className="flex">
+      <div className="flex flex-wrap">
         {crews.map((crew, index) => (
           <CrewCard
             key={index}

@@ -15,6 +15,7 @@ import {
 import { Button, ButtonGroup } from "@nextui-org/react";
 import { SearchIcon } from "@/public/SearchIcon";
 import { TbPlus } from "react-icons/tb";
+import CreateCrewModal from "./CreateCrewModal";
 
 const CrewNav = () => {
   return (
@@ -22,16 +23,12 @@ const CrewNav = () => {
       <Navbar isBordered>
         <NavbarContent justify="start">
           <NavbarBrand className="mr-4">
-            <p className="hidden sm:block font-bold text-inherit">
-              Discover Groups
-            </p>
+            <p className="hidden sm:block font-bold text-inherit">Your Crews</p>
           </NavbarBrand>
         </NavbarContent>
         <NavbarContent as="div" className="items-center" justify="end">
           <NavbarItem justify="end">
-            <Button color="primary" startContent={<TbPlus />}>
-              Create Crew
-            </Button>
+            <CreateCrewModal />
           </NavbarItem>
           <Input
             classNames={{

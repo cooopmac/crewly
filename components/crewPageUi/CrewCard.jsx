@@ -9,27 +9,28 @@ import {
   Avatar,
   Button,
 } from "@nextui-org/react";
-import { TbPlus } from "react-icons/tb";
+import { TbEdit, TbPlus } from "react-icons/tb";
+import AddMemberModal from "./AddMemberModal";
 
 const CrewCard = ({ title, members, membersNames }) => {
   console.log(membersNames);
   return (
     <>
-      <Card className="py-4 m-4 min-w-56 max-w-64">
+      <Card className="py-4 m-4 min-w-64 max-w-64">
         <CardHeader className="pt-2 px-4 flex-col items-start">
-          <p className="text-tiny uppercase font-bold">{title}</p>
+          <p className="text-small uppercase font-bold">{title}</p>
           <small className="text-default-500">{members} Members</small>
-          <div className="pt-4">
-            <Button startContent={<TbPlus />} color="primary">
-              Add Member
+          <div className="flex gap-2 pt-4">
+            <AddMemberModal />
+            <Button isIconOnly>
+              <TbEdit />
             </Button>
           </div>
         </CardHeader>
         <CardBody className="overflow-visible gap-4 grid grid-cols-2">
           {membersNames.map((memberName, index) => (
             <Chip
-              className=""
-              index={index}
+              key={index}
               color="primary"
               variant="flat"
               avatar={
