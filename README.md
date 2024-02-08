@@ -2,8 +2,13 @@ User Stories:
 
 as a user, i want to login and signup\_
 
-- add user authentication frontend page
+- add user authentication frontend page -done
 - do user routing and logic in backend
+  - do crews page
+    - create a crew
+    - add workers to crew
+    - delete crew
+    - invite crew to website to view calender
 - create database to save users
 - clerk?
 
