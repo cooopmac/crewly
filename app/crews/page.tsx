@@ -13,36 +13,6 @@ const Page = () => {
       members: 10,
       membersNames: ["Cooper", "Alexandria", "Nathan", "Leslie"],
     },
-    {
-      title: "Landscape Guys",
-      members: 3,
-      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
-    },
-    {
-      title: "Landscape Guys",
-      members: 3,
-      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
-    },
-    {
-      title: "Landscape Guys",
-      members: 3,
-      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
-    },
-    {
-      title: "Landscape Guys",
-      members: 3,
-      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
-    },
-    {
-      title: "Landscape Guys",
-      members: 3,
-      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
-    },
-    {
-      title: "Landscape Guys",
-      members: 3,
-      membersNames: ["Cooper", "Joe", "Nathan", "Jon"],
-    },
   ];
   return (
     <div>

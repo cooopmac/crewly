@@ -31,7 +31,7 @@ export default function HomeLayout({
       {/* Flex container for sidebar and main content */}
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar with full height */}
-        <div className="w-72 border-r-1 border-r-neutral-800">
+        <div className="w-64 border-r-1 border-r-neutral-800">
           <Sidebar />
         </div>
 
